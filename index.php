@@ -1,6 +1,6 @@
 
 <?php
-	/* Template Name: 1 - Home
+	/* Template Name: index
 	 */
 	get_header();
 ?>
