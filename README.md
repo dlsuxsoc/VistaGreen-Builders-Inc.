@@ -11,7 +11,7 @@
 2. Download Bitnami WordPress module
 3. Transfer this directory to the themes folder of the xampp wordpress 
 (e.g. "C:\xampp\apps\wordpress\htdocs\wp-content\themes\PROJECT-FOLDER-NAME")
-4. Import WordPress' pages/posts XML file through the site's wp-admin -> tools (If exists)
+4. Import WordPress' pages/posts XML file if available through the site's "wp-admin -> tools" 
 (e.g. "http://wordpress.local/wordpress/wp-admin/import.php")
 
 NOTE:
