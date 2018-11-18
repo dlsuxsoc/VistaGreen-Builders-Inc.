@@ -7,10 +7,14 @@
 			wp_enqueue_style( 'general.css', get_template_directory_uri() . '/css/general.css' );
 			switch($post->post_name) // Post/Page slug used, not the Title
 			{
-				case 'vc':
-					// wp_enqueue_script('home', get_template_directory_uri() . '/js/home.js', array('jquery'), '', false);
-                    wp_enqueue_style( 'vc.css', get_template_directory_uri() . '/css/vc.css' );
+				case 'index':
+					wp_enqueue_script('index.js', get_template_directory_uri() . '/js/index.js', array('jquery'), '', false);
+                    wp_enqueue_style( 'index.css', get_template_directory_uri() . '/css/index.css' );
                     break;
+				case 'vc':
+					wp_enqueue_style( 'vc.css', get_template_directory_uri() . '/css/vc.css' );
+                    break;
+				
 			}
 		} 
 	}

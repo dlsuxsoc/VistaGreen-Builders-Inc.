@@ -1,0 +1,15 @@
+
+.block > .container{
+	padding-bottom: 100px;
+	border-bottom: 1px solid #bfbfbf;
+}
+/*.block:last-child > .container{ 		Not working */
+div.lastBlock > .container{
+	border-bottom: 0px;
+	padding-bottom: inherit;
+}
+
+
+#projectsFeed img{
+	border-radius: 10px;
+}
