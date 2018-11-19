@@ -7,22 +7,20 @@
 
 	
 	<div class="block jumbotron text-center container-fluid" id = "vcBody">
-			
+		<br>
+		
 		<img src="<?php echo ASSETS_PATH; ?>/images/vg-logo.png" alt="" width = "500px"/>
 		
-		
-		<p><small>introduces in the Philippines a </small></p>
-		
+		<p>introduces in the Philippines a</p> <br>
 		<h2 class = "text-success"><strong>Waste-To-Energy (WTE) <br> Pyrolysis / Gasification <br>
-			Technology</strong></h2>
-		
+			Technology</strong></h2> <br>
 		<h3><strong>Modular Catalytic gasification waste parocessing plants, <br>
 			from 50 tons to 500 tons per day capacity, Clean-tech, <br>
 			water-free processing system</strong></h3>
 		
 		<p>that eliminates the need for additional dumpsites/landfills</p>
 		
-		<div class ='container'>
+		<div class ='block container'>
 
 			<div class = 'row'>				
 				<div class="col-lg-6">

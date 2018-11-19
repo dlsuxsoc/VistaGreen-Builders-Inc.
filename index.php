@@ -7,8 +7,19 @@
 	<!-- TODO: Add first part (banner)-->
 	<!-- TODO: Add js transition navBar (colors) -->
 	
-    <div class="container-fluid" id = "banner">
-		
+    <div class="container-fluid text-light" id = "banner">
+		<div class = "container">
+			<br><br><br>
+			<strong class = "text-success">VISTAGREEN BUILDERS INC.</strong> (formerly) <br>
+			ATO Builders Inc.), is a duly registered <br>
+			company with the Securities and Exchange <br>
+			Commision (SEC) and under the laws of <br>
+			the Republic of the Philippines. <br>
+			
+			<br><br>
+			<button type="button" class="btn btn-light text-light" 
+					id = "buildWithUsBtn">BUILD WITH US!</button>
+		</div>
 	</div>
 	
 	<?php
@@ -16,7 +27,7 @@
 	?>	
 	
 	
-	<div class="block text-left container-fluid " id = "aboutFeed">
+	<div class="block text-left container-fluid navOptionsSection" id = "aboutSection">
 		<div class ='container'>
 			<div class = 'row'>				
 				<div class="col-lg-6" >
@@ -58,11 +69,11 @@
 		</div>
 	</div>
 	
-	<div class="block text-center container-fluid " id = "lineOfBusinessFeed">	
+	<div class="block text-center container-fluid navOptionsSection" id = "lineOfBusinessSection">	
 		<div class ='container'>
+			<h3 class = "text-success"><strong>LINE OF BUSINESS</strong></h3>
+			<br><br>
 			<div class = 'row'>	
-				<h3 class = "text-success"><strong>LINE OF BUSINESS</strong></h3>
-				<br><br>
 				<div class="col-lg-4">
 					<img src="<?php echo ASSETS_PATH; ?>/icons/bridge.png" alt="" 
 						 width = "150px"/>	
@@ -104,11 +115,11 @@
 		</div>
 	</div>
 	
-	<div class="block lastBlock text-center container-fluid" id = "projectsFeed">	
+	<div class="block lastBlock text-center container-fluid navOptionsSection" id = "projectsSection">	
 		<div class ='container'>
+			<h3 class = "text-success"><strong>PROJECTS</strong></h3>
+			<br><br>
 			<div class = 'row'>	
-				<h3 class = "text-success"><strong>PROJECTS</strong></h3>
-				<br><br>
 				<div class="col-lg-4">
 					<img src="https://www.w3schools.com/w3css/img_lights.jpg" alt="" 
 						 width = "200px"/>	

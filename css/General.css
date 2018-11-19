@@ -1,28 +1,13 @@
 /**************** NAVBAR ************************/
 #navBar{
 	background: rgba(0, 0, 0, 0);
-	padding: 20px;/*2%;*/
-	border-radius: 0px;
-	margin-bottom: 0px;	
-	border: none;		
-	position: sticky;
-	top: -1px;
-	z-index: 100;
+	padding: 20px;
 }
 
-#navBar *{
-	color: #5b864f;
-}
-
-#navBar, #navBarHeader, #collapsibleOptions{	
-   // Animation
-   -webkit-transition: all 0.4s ease;
-   transition: all 0.4s ease;
-}
-
-#collapsibleOptions{
-	width: fit-content;
-	font-size: medium;
+#navBar *{	
+   // Animation   
+   -webkit-transition: color 1s; /* For Safari 3.0 to 6.0 */
+	transition: color 1s; /* For modern browsers */
 }
 
 #navBar .icon-bar{
@@ -35,10 +20,32 @@
 	border-color: #5b864f;
 }
 
-#collapsibleOptions a:hover, 
-#collapsibleOptions a:focus{
-	background-color: transparent;
+#navBarCollapsibleOptions li.active{
+	font-weight: bold;
 }
+
+#navBarCollapsibleOptions li{
+    transition: font-weight .4s ease-in-out;
+}
+
+.whiteNavBar *{
+	color: white!important;
+}
+
+.greenNavBar *{
+	color: #28a745!important;
+}
+
+.greenNavBar #navBarImg{
+	content: url("../assets/images/vg-logo.png");
+	width: 250px;
+}
+
+.whiteNavBar #navBarImg{
+	content: url("../assets/images/vg-logo-white.png");
+	width: 250px;
+}
+
 
 /*********************************************/
 
@@ -66,4 +73,8 @@ footer {
 
 footer p{
 	color: darkgray;
+}
+
+#map{
+	height: 500px;
 }

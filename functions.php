@@ -27,6 +27,10 @@
 	if( !defined(ASSETS_PATH)){
 		define( 'ASSETS_PATH', get_stylesheet_directory_uri() . '/assets/' );
 	}
+	
+	if( !defined(JS_PATH)){
+		define( 'JS_PATH', get_stylesheet_directory_uri() . '/js/' );
+	}
 	/*  <img src="<?php echo ASSETS_PATH; ?>/images/FileName.png" alt=""/>	*/
 
 ?>

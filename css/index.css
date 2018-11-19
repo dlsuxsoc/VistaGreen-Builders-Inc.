@@ -1,8 +1,40 @@
 
+
+#banner{
+	 /* The image used */
+    background-image: url("https://www.w3schools.com/w3css/img_lights.jpg");
+
+    /* Set a specific height */
+    height: -webkit-fill-available; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+	
+}
+
+#banner > .container{
+	transform: translateY(50%);
+}
+
+#buildWithUsBtn{
+	background-color: rgba(0,0,0,.1);
+	border-color: white;
+	color: white;
+}
+
+
+#aboutSection{
+	padding-top: 100px;
+}
+
 .block > .container{
 	padding-bottom: 100px;
 	border-bottom: 1px solid #bfbfbf;
 }
+
 /*.block:last-child > .container{ 		Not working */
 div.lastBlock > .container{
 	border-bottom: 0px;
@@ -10,6 +42,6 @@ div.lastBlock > .container{
 }
 
 
-#projectsFeed img{
+#projectsSection img{
 	border-radius: 10px;
 }

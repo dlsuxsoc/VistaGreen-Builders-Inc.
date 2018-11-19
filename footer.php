@@ -1,6 +1,35 @@
 		
 <!-- TODO: Add map -->
 		
+	<div class = "navOptionsSection" id = "contactUsSection"></div>
+	<div id="map"></div>
+	
+	<script>
+	  function initMap() {
+		var myLatLng = {lat: -25.363, lng: 131.044};
+
+		// Create a map object and specify the DOM element
+		// for display.
+		var map = new google.maps.Map(document.getElementById('map'), {
+		  center: myLatLng,
+		  zoom: 4
+		});
+
+		// Create a marker and set its position.
+		var marker = new google.maps.Marker({
+		  map: map,
+		  position: myLatLng,
+		  title: 'Hello World!'
+		});
+	  }
+
+	</script>
+	<!-- ...api/js?key= YOUR_KEY_HERE &callback=initmap"-->
+	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB4217tuYuAr0OEV9tCKW4Ol2DgDsxjueg&callback=initMap"
+		async defer></script>
+		
+		
+		
 		<footer>		
 			<div class ='container'>
 				<div class = 'row'>				
@@ -53,7 +82,8 @@
 				</div>	
 			</div>
 		</footer>
-
+	
+		<script src="<?php echo JS_PATH; ?>/jquery.waypoints.min.js"></script>
 		<?php wp_footer(); ?>
 	</body>
 </html>
