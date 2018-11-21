@@ -33,10 +33,10 @@
 			</button>
 			<div class="collapse navbar-collapse" id="navBarCollapsibleOptions">
 				<ul class="navbar-nav ml-auto">
-					<li class="nav-item"><a class="nav-link" href="http://wordpress.local/wordpress/#aboutSection"><b>ABOUT</b></a></li>
-					<li class="nav-item"><a class="nav-link" href="http://wordpress.local/wordpress/#lineOfBusinessSection"><b>LINE OF BUSINESS</b></a></li>
-					<li class="nav-item"><a class="nav-link" href="http://wordpress.local/wordpress/#projectsSection"><b>PROJECTS</b></a></li>
-					<li class="nav-item"><a class="nav-link" href="http://wordpress.local/wordpress/#contactUsSection"><b>CONTACT US</b></a></li>
+					<li class="nav-item"><a class="nav-link" href="#aboutSection"><b>ABOUT</b></a></li>
+					<li class="nav-item"><a class="nav-link" href="#lineOfBusinessSection"><b>LINE OF BUSINESS</b></a></li>
+					<li class="nav-item"><a class="nav-link" href="#projectsSection"><b>PROJECTS</b></a></li>
+					<li class="nav-item"><a class="nav-link" href="#contactUsSection"><b>CONTACT US</b></a></li>
 				</ul>
 				
 			</div>
