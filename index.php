@@ -30,41 +30,19 @@
 	<div class="block text-left container-fluid navOptionsSection" id = "aboutSection">
 		<div class ='container'>
 			<div class = 'row'>				
-				<div class="col-lg-6" >
-					<h3 class = "text-success"><strong>ABOUT</strong></h3>
-					<br>
-					The company was established as a 
-					general construction firm that offers a full range 
-					of preconstruction planning, engineering, and 
-					construction services, which anchors its 
-					organizational structure on a new management concept 
-					of high efficiency as shown by its numerous completed 
-					projects.
-					<br><br>
-					Equipped with modern technology and backed by 
-					professionals with varied disciplines of licensed 
-					engineers and architects. It has a work force of skilled 
-					and semi-skilled labor, equipment operators. The 
-					project teams maintain a strong foundation of trust 
-					and mutual respect generated through positive 
-					relationship with our clients, sub-contractors and 
-					suppliers. A company-wide policy encouraging shared 
-					perfomance responsibility ensures the highest degree 
-					of professional service and result on all projects 
-					undertaken.
-					<br><br><br>
-					<button type="button" class="btn btn-success" 
-							id = "viewMembersBtn">VIEW MEMBERS</button>
-				</div>
-								
-				<div class="col-lg-6 text-center">
-					<img src= "https://www.w3schools.com/w3css/img_lights.jpg" alt="" 
-						 style = "width: 350px;"/>		
-					<br><br>
-					<img src= "https://www.w3schools.com/w3css/img_lights.jpg" alt="" 
-						 style = "width: 350px;"/>					
-					
-				</div>
+				<?php
+						$myposts = get_posts( array( 'name' => 'about-feed')  );
+						if ( $myposts ) : 
+							foreach ( $myposts as $post ) : 
+								setup_postdata( $post );
+								echo(the_content()); 
+							endforeach; 
+						else: ?>
+							<p>Sorry, no posts matched your criteria.</p>
+					<?php 
+						endif; 
+						wp_reset_query();
+					?>
 			</div>	
 		</div>
 	</div>
@@ -120,7 +98,7 @@
 			<h3 class = "text-success"><strong>PROJECTS</strong></h3>
 			<br><br>
 			<div class = 'row'>	
-				<div class="col-lg-4">
+				<!--<div class="col-lg-4">
 					<img src="https://www.w3schools.com/w3css/img_lights.jpg" alt="" 
 						 width = "200px"/>	
 					<br><br>
@@ -132,33 +110,22 @@
 					<br><br>
 					<strong>December 15, 2017</strong>
 					<p class = "text-success">₱47,000,000.00</p>
-				</div>	
-				<div class="col-lg-4">
-					<img src="https://www.w3schools.com/w3css/img_lights.jpg" alt="" 
-						 width = "200px"/>	
-					<br><br>
-					<h4><strong>Construction of Kinpo Office-<br>
-						Factory Building (Phase I)</strong></h4>
+					
 					<br>
-					ID & Landscaping Block 7 Lot 1, Lima <br>
-					Technology Center, Lipa City, Batangas <br>
-					<br><br>
-					<strong>December 15, 2017</strong>
-					<p class = "text-success">₱47,000,000.00</p>
-				</div>	
-				<div class="col-lg-4">
-					<img src="https://www.w3schools.com/w3css/img_lights.jpg" alt="" 
-						 width = "200px"/>	
-					<br><br>
-					<h4><strong>Construction of Kinpo Office-<br>
-						Factory Building (Phase I)</strong></h4>
-					<br>
-					ID & Landscaping Block 7 Lot 1, Lima <br>
-					Technology Center, Lipa City, Batangas <br>
-					<br><br>
-					<strong>December 15, 2017</strong>
-					<p class = "text-success">₱47,000,000.00</p>
-				</div>	
+					</div>-->
+					<?php
+						$myposts = get_posts( array( 'category_name' => 'projects')  );
+						if ( $myposts ) : 
+							foreach ( $myposts as $post ) : 
+								setup_postdata( $post );
+								echo(the_content()); 
+							endforeach; 
+						else: ?>
+							<p>Sorry, no posts matched your criteria.</p>
+					<?php 
+						endif; 
+						wp_reset_query();
+					?>
 			</div>
 			
 			<br><br><br>

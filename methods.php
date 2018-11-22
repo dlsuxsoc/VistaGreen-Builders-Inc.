@@ -3,8 +3,8 @@
 	require_once( $_SERVER['DOCUMENT_ROOT'] . '/wp-includes/wp-db.php' );
 	global $wpdb;
 	
-	$message = "a";
-	echo $message;
+	// $message = "a";
+	// echo $message;
 	
 	if (isset($_POST['action'])) {
 		switch ($_POST['action']) {
