@@ -1,7 +1,18 @@
 /**************** NAVBAR ************************/
+p, h1, h2, h3, h4, h5, h6, button{
+	font-family: 'Assistant', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6{
+	font-weight: bold;
+}
+
 #navBar{
 	background: rgba(0, 0, 0, 0);
-	padding: 20px;
+	padding: 30px 20px;
+	margin: 0;
+	position: fixed;
+	width: 100%!important;
 }
 
 #navBar *{	
@@ -32,6 +43,10 @@
 	color: white!important;
 }
 
+.greenNavBar{
+	background: rgba(255, 255, 255, 1)!important;
+}
+
 .greenNavBar *{
 	color: #28a745!important;
 }
@@ -46,6 +61,12 @@
 	width: 250px;
 }
 
+.navbar-nav li{
+	padding: 0 1em;
+	font-weight: lighter;
+	font-size: 0.95em;
+	font-family: 'Lato', sans-serif;
+}
 
 /*********************************************/
 

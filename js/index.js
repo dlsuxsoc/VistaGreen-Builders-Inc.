@@ -49,7 +49,7 @@ $(document).ready(function(){
 			$("#navBar").addClass("greenNavBar");	
 			
 			if (st <=  (bannerHeight + navBarHeight/2))
-				 $("#navBarImg").css("opacity", ((bannerHeight-navBarHeight/2) - st) / 
+				 $("#navBarImg").css("opacity", ((bannerHeight - navBarHeight/2) - st) / 
 												 (bannerHeight - (bannerHeight+navBarHeight/2)));
 			else $("#navBarImg").css("opacity", 1);
 		
@@ -58,8 +58,8 @@ $(document).ready(function(){
 			$("#navBar").addClass("whiteNavBar");
 			
 			if (st >=  (bannerHeight - navBarHeight)/2) 
-				 $("#navBarImg").css("opacity", ((bannerHeight-navBarHeight/2) - st) / 
-												 (bannerHeight - (bannerHeight-navBarHeight/2)));
+				 $("#navBarImg").css("opacity", ((bannerHeight - navBarHeight/2) - st) / 
+												 (bannerHeight - (bannerHeight - navBarHeight/2)));
 			else $("#navBarImg").css("opacity", 1);
 			
 		}

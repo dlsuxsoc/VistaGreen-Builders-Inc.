@@ -9,14 +9,16 @@
 	
     <div class="container-fluid text-light" id = "banner">
 		<div class = "container">
-			<br><br><br>
-			<strong class = "text-success">VISTAGREEN BUILDERS INC.</strong> (formerly) <br>
-			ATO Builders Inc.), is a duly registered <br>
-			company with the Securities and Exchange <br>
-			Commision (SEC) and under the laws of <br>
-			the Republic of the Philippines. <br>
-			
-			<br><br>
+			<div class="cta">
+				<h2 id="cta-title">VISTAGREEN BUILDERS INC.</h2>
+				<br>
+				<p class="action-paragraph">
+					(formerly ATO Builders Inc.), is a duly registered
+					company with the Securities and Exchange
+					Commision (SEC) and under the laws of
+					the Republic of the Philippines.
+				</p>
+			</div>
 			<button type="button" class="btn btn-light text-light" 
 					id = "buildWithUsBtn">BUILD WITH US!</button>
 		</div>
@@ -58,13 +60,15 @@
 					<br><br>
 					<h4 class = "text-success"><strong>Civil Works</strong></h4>
 					<br>
-					Roads and Bridges <br>
-					Land Development <br>
-					Water Distribution System <br>
-					Drainage & Flood Control System <br>
-					Sewer System & Wastewater Treatment Plant <br>
-					Irrigation System <br>
-					Site Development <br>
+					<p class="details">
+						Roads and Bridges <br>
+						Land Development <br>
+						Water Distribution System <br>
+						Drainage & Flood Control System <br>
+						Sewer System & Wastewater Treatment Plant <br>
+						Irrigation System <br>
+						Site Development <br>
+					</p>
 				</div>
 				<div class="col-lg-4">
 					<img src="<?php echo ASSETS_PATH; ?>/icons/enterprise.png" alt="" 
@@ -72,10 +76,12 @@
 					<br><br>
 					<h4 class = "text-success"><strong>Architectural Works</strong></h4>
 					<br>
-					Industrial Buildings <br>
-					Commercial Buildings <br>
-					Institutional Buildings <br>
-					Residential Buildings <br>
+					<p class="details">
+						Industrial Buildings <br>
+						Commercial Buildings <br>
+						Institutional Buildings <br>
+						Residential Buildings <br>
+					</p>
 				</div>		
 				<div class="col-lg-4">
 					<img src="<?php echo ASSETS_PATH; ?>/icons/engineer.png" alt="" 
@@ -84,10 +90,12 @@
 					<h4 class = "text-success"><strong>Engineering Services, <br>
 						Planning & Design</strong></h4>
 					<br>
-					Industrial Buildings and Facilities <br>
-					Wastewater Treatment Plant <br>
-					Construction Management <br>
-					DENR ECC and LLDA Clearance application <br>
+					<p class="details">
+						Industrial Buildings and Facilities <br>
+						Wastewater Treatment Plant <br>
+						Construction Management <br>
+						DENR ECC and LLDA Clearance application <br>
+					</p>
 				</div>
 			</div>	
 		</div>
