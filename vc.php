@@ -7,9 +7,9 @@
 
 	
 	<div class="block jumbotron text-center container-fluid" id = "vcBody">
-		<br>
-		
-		<img src="<?php echo ASSETS_PATH; ?>/images/vg-logo.png" alt="" width = "500px"/>
+		<br/>
+		<br/>
+		<img src="<?php echo ASSETS_PATH; ?>/images/new-logos/vistacorp-logo-2.png" alt="" width = "500px"/>
 		
 		<p>introduces in the Philippines a</p> <br>
 		<h2 class = "text-success"><strong>Waste-To-Energy (WTE) <br> Pyrolysis / Gasification <br>

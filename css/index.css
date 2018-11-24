@@ -1,4 +1,11 @@
 
+p, h1, h2, h3, h4, h5, h6, button{
+	font-family: 'Assistant', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6{
+	font-weight: bold;
+}
 
 #banner{
 	 /* The image used */
@@ -12,7 +19,14 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-	
+}
+
+.cta{
+	padding: 3em 0;
+}
+
+#cta-title{
+	color: #35EC09;
 }
 
 #banner > .container{
@@ -44,4 +58,13 @@ div.lastBlock > .container{
 
 #projectsSection img{
 	border-radius: 10px;
+}
+
+.action-paragraph{
+	width: 20em;
+	font-size: 1.1em;
+}
+
+.details{
+	line-height: 2em;
 }
