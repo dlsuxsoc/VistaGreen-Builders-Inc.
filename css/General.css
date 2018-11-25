@@ -15,10 +15,13 @@ h1, h2, h3, h4, h5, h6{
 	width: 100%!important;
 }
 
-#navBar *{	
-   // Animation   
-   -webkit-transition: color 1s; /* For Safari 3.0 to 6.0 */
-	transition: color 1s; /* For modern browsers */
+#navBar{	
+	// Animation       
+	-webkit-transition: all 1s ease-in-out;
+	-moz-transition: all 1s ease-in-out;
+	-o-transition: all 1s ease-in-out;
+	-ms-transition: all 1s ease-in-out;
+	transition: all 1s ease-in-out;
 }
 
 #navBar .icon-bar{
@@ -32,15 +35,23 @@ h1, h2, h3, h4, h5, h6{
 }
 
 #navBarCollapsibleOptions li.active{
-	font-weight: bold;
+	text-shadow: -1px 0 0 currentColor, .5px 0 0 currentColor;
 }
 
 #navBarCollapsibleOptions li{
-    transition: font-weight .4s ease-in-out;
+	
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s;
 }
 
 .whiteNavBar *{
 	color: white!important;
+}
+
+.whiteNavBar{
+	background: rgba(0, 0, 0, .9)!important;
 }
 
 .greenNavBar{
@@ -79,7 +90,7 @@ h1, h2, h3, h4, h5, h6{
 
 .block{
 	/*padding		 : 150px;*/
-	padding-top: 50px;
+	padding-top: 100px;
 	padding-bottom: 50px;
 	background-color: white;
 }

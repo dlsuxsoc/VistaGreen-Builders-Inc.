@@ -26,7 +26,7 @@
 	<body>		
 		<nav class="navbar navbar-expand-lg navbar-light fixed-top greenNavBar" id = "navBar">
 			<div class="container">
-				<a class="navbar-brand" href="http://wordpress.local/wordpress/">
+				<a class="navbar-brand" href="<?php echo(site_url()) ?>">
 				<img alt = "" id = "navBarImg"/> 
 				</a>
 				<!-- Responsive navBar (collapsible menu) -->
@@ -37,11 +37,12 @@
 				</button>
 				<div class="collapse navbar-collapse" id="navBarCollapsibleOptions">
 					<ul class="navbar-nav ml-auto">
-						<li class="nav-item"><a class="nav-link" href="http://wordpress.local/wordpress/#aboutSection"><b>ABOUT</b></a></li>
-						<li class="nav-item"><a class="nav-link" href="http://wordpress.local/wordpress/#lineOfBusinessSection"><b>LINE OF BUSINESS</b></a></li>
-						<li class="nav-item"><a class="nav-link" href="http://wordpress.local/wordpress/#projectsSection"><b>PROJECTS</b></a></li>
-						<li class="nav-item"><a class="nav-link" href="http://wordpress.local/wordpress/#contactUsSection"><b>CONTACT US</b></a></li>
-						<li class="nav-item"><a class="nav-link" href="http://localhost:8888/wordpress/vc/"><b>VISTA CORP.</b></a></li>
+						<li class="nav-item"><a class="nav-link" href="<?php echo(site_url()) ?>/#aboutSection"><b>ABOUT</b></a></li>
+						<li class="nav-item"><a class="nav-link" href="<?php echo(site_url()) ?>/#lineOfBusinessSection"><b>LINE OF BUSINESS</b></a></li>
+						<li class="nav-item"><a class="nav-link" href="<?php echo(site_url()) ?>/#projectsSection"><b>PROJECTS</b></a></li>
+						<li class="nav-item"><a class="nav-link" href="<?php echo(site_url()) ?>/#contactUsSection"><b>CONTACT US</b></a></li>
+						<li class="nav-item"><a class="nav-link" href="<?php echo(site_url()) ?>/vc/"><b>VISTA CORP.</b></a></li>
+						<!--<li class="nav-item"><a class="nav-link" href="./vc/"><b>VISTA CORP.</b></a></li>-->
 					</ul>
 					
 				</div>

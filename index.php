@@ -32,19 +32,37 @@
 	<div class="block text-left container-fluid navOptionsSection" id = "aboutSection">
 		<div class ='container'>
 			<div class = 'row'>				
-				<?php
-						$myposts = get_posts( array( 'name' => 'about-feed')  );
-						if ( $myposts ) : 
-							foreach ( $myposts as $post ) : 
-								setup_postdata( $post );
-								echo(the_content()); 
-							endforeach; 
-						else: ?>
-							<p>Sorry, no posts matched your criteria.</p>
-					<?php 
-						endif; 
-						wp_reset_query();
-					?>
+				<div class="col-lg-6">
+					<h3 class="text-success"><strong>ABOUT</strong></h3>
+					The company was established as a
+					general construction firm that offers a full range
+					of preconstruction planning, engineering, and
+					construction services, which anchors its
+					organizational structure on a new management concept
+					of high efficiency as shown by its numerous completed
+					projects.
+
+					<br><br>
+
+					Equipped with modern technology and backed by
+					professionals with varied disciplines of licensed
+					engineers and architects. It has a work force of skilled
+					and semi-skilled labor, equipment operators. The
+					project teams maintain a strong foundation of trust
+					and mutual respect generated through positive
+					relationship with our clients, sub-contractors and
+					suppliers. A company-wide policy encouraging shared
+					perfomance responsibility ensures the highest degree
+					of professional service and result on all projects
+					undertaken.
+					<br><br><br><br>
+					<button id="viewMembersBtn" class="btn btn-success" type="button">VIEW MEMBERS</button>
+				</div>
+				<div class="col-lg-6 text-center">
+					<img style="width: 350px;" src="<?php echo ASSETS_PATH; ?>/images/new-images/08.jpg" alt="" />
+					<br><br>
+					<img style="width: 350px;" src="<?php echo ASSETS_PATH; ?>/images/new-images/05.jpg" alt="" />
+				</div>
 			</div>	
 		</div>
 	</div>
@@ -122,7 +140,10 @@
 					<br>
 					</div>-->
 					<?php
-						$myposts = get_posts( array( 'category_name' => 'projects')  );
+						$myposts = get_posts( 
+							array( 'category_name' => 'projects', 
+								   'posts_per_page' => 3, 
+								   'order' => 'post_date')  );
 						if ( $myposts ) : 
 							foreach ( $myposts as $post ) : 
 								setup_postdata( $post );
@@ -137,8 +158,8 @@
 			</div>
 			
 			<br><br><br>
-			<button type="button" class="btn btn-success" 
-					id = "viewProjectsButton">VIEW MORE</button>
+			<a href = "http://wordpress.local/wordpress/projects/"><button type="button" class="btn btn-success" 
+					id = "viewProjectsButton">VIEW MORE</button></a>
 		</div>
 	</div>	
 	

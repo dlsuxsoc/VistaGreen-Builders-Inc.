@@ -1,8 +1,8 @@
 
 
 $(document).ready(function(){
+	// $("#navBarCollapsibleOptions .nav-link").removeAttr("href");
 	
-	// var items = $("#navBarCollapsibleOptions li");
 	var items = document.getElementsByClassName("navOptionsSection");
 	var i, idSection;
 	for (i = 0; i < items.length; i++) {
@@ -23,7 +23,8 @@ $(document).ready(function(){
 				offset: document.getElementById('navBar').offsetHeight
 			})
 			
-			$("#navBarCollapsibleOptions li:nth-child(" + (i+1) + ")").click(function() {
+			$("#navBarCollapsibleOptions li:nth-child(" + (i+1) + ")").click(function(e) {
+				e.preventDefault();
 				// console.log(i + " " + idSection);
 				$('html,body').animate({
 					scrollTop: $("#" + idSection ).offset().top},
@@ -48,19 +49,11 @@ $(document).ready(function(){
 			$("#navBar").removeClass("whiteNavBar");
 			$("#navBar").addClass("greenNavBar");	
 			
-			if (st <=  (bannerHeight + navBarHeight/2))
-				 $("#navBarImg").css("opacity", ((bannerHeight - navBarHeight/2) - st) / 
-												 (bannerHeight - (bannerHeight+navBarHeight/2)));
-			else $("#navBarImg").css("opacity", 1);
-		
+			
 		} else {
 			$("#navBar").removeClass("greenNavBar");
 			$("#navBar").addClass("whiteNavBar");
 			
-			if (st >=  (bannerHeight - navBarHeight)/2) 
-				 $("#navBarImg").css("opacity", ((bannerHeight - navBarHeight/2) - st) / 
-												 (bannerHeight - (bannerHeight - navBarHeight/2)));
-			else $("#navBarImg").css("opacity", 1);
 			
 		}
 	});

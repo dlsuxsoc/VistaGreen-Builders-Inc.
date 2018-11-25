@@ -9,7 +9,9 @@ h1, h2, h3, h4, h5, h6{
 
 #banner{
 	 /* The image used */
-    background-image: url("https://www.w3schools.com/w3css/img_lights.jpg");
+    background: linear-gradient( rgba(0,0,0,0.25), rgba(0, 0, 0, 0.45) ),
+				url("../assets/images/new-images/10.jpg");
+
 
     /* Set a specific height */
     height: -webkit-fill-available; 
@@ -34,7 +36,7 @@ h1, h2, h3, h4, h5, h6{
 }
 
 #buildWithUsBtn{
-	background-color: rgba(0,0,0,.1);
+	background-color: rgba(0,0,0,.25);
 	border-color: white;
 	color: white;
 }
