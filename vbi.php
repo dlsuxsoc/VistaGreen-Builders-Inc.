@@ -4,9 +4,30 @@
 	 */
 	get_header();
 ?>
+
+
+	<div class="text-light">
 	
-    <div class="container-fluid text-light" id = "banner">
-		<div class = "container">
+		<div class="carousel slide carousel-fade" data-ride="carousel" id = "banner">
+
+			<!-- Wrapper for slides -->
+			<div class="carousel-inner" role="listbox">
+					<div class="carousel-item active">
+					</div>
+					<div class="carousel-item">
+					</div>
+					<div class="carousel-item">
+					</div>
+			</div>
+			<ol class="carousel-indicators">
+				<li data-target="#banner" data-slide-to="0" class="active"></li>
+				<li data-target="#banner" data-slide-to="1"></li>
+				<li data-target="#banner" data-slide-to="2"></li>
+			</ol>
+		</div>
+	
+		<!-- Content of the carousel -->
+		<div class = "container" id = "contentCarousel">
 			<div class="cta">
 				<h2 id="cta-title">VISTAGREEN BUILDERS INC.</h2>
 				<br>
@@ -20,12 +41,12 @@
 			<button type="button" class="btn btn-light text-light" 
 					id = "buildWithUsBtn">BUILD WITH US!</button>
 		</div>
+		
 	</div>
 	
 	<?php
 		include "missionSnippet.php";
 	?>	
-	
 	
 	<div class="block text-left container-fluid navOptionsSection" id = "aboutSection">
 		<div class ='container'>

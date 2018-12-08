@@ -7,12 +7,37 @@ h1, h2, h3, h4, h5, h6{
 	font-weight: bold;
 }
 
-#banner{
-	 /* The image used */
-    background: linear-gradient( rgba(0,0,0,0.25), rgba(0, 0, 0, 0.45) ),
-				url("../assets/images/new-images/10.jpg");
 
+.carousel-item:nth-child(1) {
+    background: linear-gradient( rgba(0,0,0,0.4), rgba(0, 0, 0, .5) ), 
+				url(../assets/images/LIMA1-49.jpg);
+				
+    /* Set a specific height */
+    height: -webkit-fill-available; 
 
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.carousel-item:nth-child(2) {
+    background: linear-gradient( rgba(0,0,0,0.4), rgba(0, 0, 0, .5) ), 
+				url(../assets/images/ACBEL1.jpg);
+				
+    /* Set a specific height */
+    height: -webkit-fill-available; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.carousel-item:nth-child(3) {
+    background: linear-gradient( rgba(0,0,0,0.4), rgba(0, 0, 0, .5) ), 
+				url(../assets/images/FPIPKinpo1.jpg);
+				
     /* Set a specific height */
     height: -webkit-fill-available; 
 
@@ -23,6 +48,7 @@ h1, h2, h3, h4, h5, h6{
     background-size: cover;
 }
 
+
 .cta{
 	padding: 3em 0;
 }
@@ -31,8 +57,11 @@ h1, h2, h3, h4, h5, h6{
 	color: #35EC09;
 }
 
-#banner > .container{
-	transform: translateY(50%);
+#contentCarousel{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
 }
 
 #buildWithUsBtn{

@@ -1,6 +1,10 @@
 
 
 $(document).ready(function(){
+	$('.carousel').carousel({
+		interval: 4000
+	})
+	
 	// $("#navBarCollapsibleOptions .nav-link").removeAttr("href");
 	
 	var items = document.getElementsByClassName("navOptionsSection");
