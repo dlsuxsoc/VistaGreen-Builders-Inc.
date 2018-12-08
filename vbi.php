@@ -78,9 +78,9 @@
 					<button id="viewMembersBtn" class="btn btn-success" type="button">VIEW MEMBERS</button>
 				</div>
 				<div class="col-lg-6 text-center">
-					<img style="width: 350px;" src="<?php echo ASSETS_PATH; ?>/images/new-images/08.jpg" alt="" />
+					<img style="width: 350px;" src="<?php echo ASSETS_PATH; ?>/images/c-NKG1.png" alt="" />
 					<br><br>
-					<img style="width: 350px;" src="<?php echo ASSETS_PATH; ?>/images/new-images/05.jpg" alt="" />
+					<img style="width: 350px;" src="<?php echo ASSETS_PATH; ?>/images/c-Halcyon.png" alt="" />
 				</div>
 			</div>	
 		</div>
@@ -177,7 +177,7 @@
 			</div>
 			
 			<br><br><br>
-			<a href = "http://wordpress.local/wordpress/projects/"><button type="button" class="btn btn-success" 
+			<a href = "http://wordpress.local/wordpress/vbi/projects/"><button type="button" class="btn btn-success" 
 					id = "viewProjectsButton">VIEW MORE</button></a>
 		</div>
 	</div>	
