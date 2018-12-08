@@ -1,0 +1,72 @@
+
+p, h1, h2, h3, h4, h5, h6, button{
+	font-family: 'Assistant', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6{
+	font-weight: bold;
+}
+
+#banner{
+	 /* The image used */
+    background: linear-gradient( rgba(0,0,0,0.25), rgba(0, 0, 0, 0.45) ),
+				url("../assets/images/new-images/10.jpg");
+
+
+    /* Set a specific height */
+    height: -webkit-fill-available; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.cta{
+	padding: 3em 0;
+}
+
+#cta-title{
+	color: #35EC09;
+}
+
+#banner > .container{
+	transform: translateY(50%);
+}
+
+#buildWithUsBtn{
+	background-color: rgba(0,0,0,.25);
+	border-color: white;
+	color: white;
+}
+
+
+#aboutSection{
+	padding-top: 100px;
+}
+
+.block > .container{
+	padding-bottom: 100px;
+	border-bottom: 1px solid #bfbfbf;
+}
+
+/*.block:last-child > .container{ 		Not working */
+div.lastBlock > .container{
+	border-bottom: 0px;
+	padding-bottom: inherit;
+}
+
+
+#projectsSection img{
+	border-radius: 10px;
+}
+
+.action-paragraph{
+	width: 20em;
+	font-size: 1.1em;
+}
+
+.details{
+	line-height: 2em;
+}

@@ -11,6 +11,10 @@
 					wp_enqueue_script('index.js', get_template_directory_uri() . '/js/index.js', array('jquery'), '', false);
                     wp_enqueue_style( 'index.css', get_template_directory_uri() . '/css/index.css' );
                     break;
+				case 'vbi':
+					wp_enqueue_script('vbi.js', get_template_directory_uri() . '/js/vbi.js', array('jquery'), '', false);
+                    wp_enqueue_style( 'vbi.css', get_template_directory_uri() . '/css/vbi.css' );
+                    break;
 				case 'vc':
 					wp_enqueue_style( 'vc.css', get_template_directory_uri() . '/css/vc.css' );
                     break;
