@@ -16,7 +16,7 @@
 <!-- 7. WordPress will then import each of the posts, pages, comments, categories, etc. -->
 <!--    contained in this file into your site. -->
 
-<!-- generator="WordPress/4.9.8" created="2018-12-08 11:47" -->
+<!-- generator="WordPress/4.9.8" created="2018-12-09 15:40" -->
 <rss version="2.0"
 	xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"
 	xmlns:content="http://purl.org/rss/1.0/modules/content/"
@@ -29,7 +29,7 @@
 	<title>vistaGreen Builders Inc.</title>
 	<link>http://localhost/wordpress</link>
 	<description>Just another WordPress site</description>
-	<pubDate>Sat, 08 Dec 2018 11:47:20 +0000</pubDate>
+	<pubDate>Sun, 09 Dec 2018 15:40:56 +0000</pubDate>
 	<language>en-US</language>
 	<wp:wxr_version>1.2</wp:wxr_version>
 	<wp:base_site_url>http://localhost/wordpress</wp:base_site_url>
@@ -107,7 +107,7 @@
 
 	<item>
 		<title>Espresso</title>
-		<link>http://localhost/wordpress/2018/11/20/project-dummy__trashed/espresso/</link>
+		<link>http://localhost/wordpress/index.php/project-dummy__trashed/espresso/</link>
 		<pubDate>Tue, 20 Nov 2018 19:36:48 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
 		<guid isPermaLink="false">http://localhost/wordpress/wp-content/uploads/2018/11/espresso.jpg</guid>
@@ -146,7 +146,7 @@
 	</item>
 	<item>
 		<title>Sandwich</title>
-		<link>http://localhost/wordpress/2018/11/22/project-dummy-3__trashed/sandwich/</link>
+		<link>http://localhost/wordpress/index.php/project-dummy-3__trashed/sandwich/</link>
 		<pubDate>Tue, 20 Nov 2018 19:36:48 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
 		<guid isPermaLink="false">http://localhost/wordpress/wp-content/uploads/2018/11/sandwich.jpg</guid>
@@ -185,7 +185,7 @@
 	</item>
 	<item>
 		<title>Coffee</title>
-		<link>http://localhost/wordpress/2018/11/22/project-dummy-2__trashed/coffee/</link>
+		<link>http://localhost/wordpress/index.php/project-dummy-2__trashed/coffee/</link>
 		<pubDate>Tue, 20 Nov 2018 19:36:48 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
 		<guid isPermaLink="false">http://localhost/wordpress/wp-content/uploads/2018/11/coffee.jpg</guid>
@@ -224,7 +224,7 @@
 	</item>
 	<item>
 		<title>Home</title>
-		<link>http://localhost/wordpress/2018/11/20/home/</link>
+		<link>http://localhost/wordpress/index.php/home/</link>
 		<pubDate>Tue, 20 Nov 2018 19:36:49 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
 		<guid isPermaLink="false">http://localhost/wordpress/2018/11/20/home/</guid>
@@ -279,7 +279,7 @@
 	</item>
 	<item>
 		<title></title>
-		<link>http://localhost/wordpress/2018/11/20/20/</link>
+		<link>http://localhost/wordpress/index.php/20/</link>
 		<pubDate>Tue, 20 Nov 2018 19:36:49 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
 		<guid isPermaLink="false">http://localhost/wordpress/2018/11/20/20/</guid>
@@ -334,7 +334,7 @@
 	</item>
 	<item>
 		<title></title>
-		<link>http://localhost/wordpress/2018/11/20/21/</link>
+		<link>http://localhost/wordpress/index.php/21/</link>
 		<pubDate>Tue, 20 Nov 2018 19:36:49 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
 		<guid isPermaLink="false">http://localhost/wordpress/2018/11/20/21/</guid>
@@ -389,7 +389,7 @@
 	</item>
 	<item>
 		<title></title>
-		<link>http://localhost/wordpress/2018/11/20/22/</link>
+		<link>http://localhost/wordpress/index.php/22/</link>
 		<pubDate>Tue, 20 Nov 2018 19:36:49 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
 		<guid isPermaLink="false">http://localhost/wordpress/2018/11/20/22/</guid>
@@ -444,7 +444,7 @@
 	</item>
 	<item>
 		<title>Yelp</title>
-		<link>http://localhost/wordpress/2018/11/20/yelp/</link>
+		<link>http://localhost/wordpress/index.php/yelp/</link>
 		<pubDate>Tue, 20 Nov 2018 19:36:49 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
 		<guid isPermaLink="false">http://localhost/wordpress/2018/11/20/yelp/</guid>
@@ -499,7 +499,7 @@
 	</item>
 	<item>
 		<title>Facebook</title>
-		<link>http://localhost/wordpress/2018/11/20/facebook/</link>
+		<link>http://localhost/wordpress/index.php/facebook/</link>
 		<pubDate>Tue, 20 Nov 2018 19:36:49 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
 		<guid isPermaLink="false">http://localhost/wordpress/2018/11/20/facebook/</guid>
@@ -554,7 +554,7 @@
 	</item>
 	<item>
 		<title>Twitter</title>
-		<link>http://localhost/wordpress/2018/11/20/twitter/</link>
+		<link>http://localhost/wordpress/index.php/twitter/</link>
 		<pubDate>Tue, 20 Nov 2018 19:36:49 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
 		<guid isPermaLink="false">http://localhost/wordpress/2018/11/20/twitter/</guid>
@@ -609,7 +609,7 @@
 	</item>
 	<item>
 		<title>Instagram</title>
-		<link>http://localhost/wordpress/2018/11/20/instagram/</link>
+		<link>http://localhost/wordpress/index.php/instagram/</link>
 		<pubDate>Tue, 20 Nov 2018 19:36:50 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
 		<guid isPermaLink="false">http://localhost/wordpress/2018/11/20/instagram/</guid>
@@ -664,7 +664,7 @@
 	</item>
 	<item>
 		<title>Email</title>
-		<link>http://localhost/wordpress/2018/11/20/email/</link>
+		<link>http://localhost/wordpress/index.php/email/</link>
 		<pubDate>Tue, 20 Nov 2018 19:36:50 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
 		<guid isPermaLink="false">http://localhost/wordpress/2018/11/20/email/</guid>
@@ -719,7 +719,7 @@
 	</item>
 	<item>
 		<title>VG3-01</title>
-		<link>http://localhost/wordpress/2018/11/20/project-dummy__trashed/vg3-01/</link>
+		<link>http://localhost/wordpress/index.php/project-dummy__trashed/vg3-01/</link>
 		<pubDate>Thu, 22 Nov 2018 21:48:02 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
 		<guid isPermaLink="false">http://localhost/wordpress/wp-content/uploads/2018/11/VG3-01.png</guid>
@@ -816,7 +816,7 @@
 	</item>
 	<item>
 		<title>Home</title>
-		<link>http://localhost/wordpress/2018/11/26/home-2/</link>
+		<link>http://localhost/wordpress/index.php/home-2/</link>
 		<pubDate>Mon, 26 Nov 2018 11:29:15 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
 		<guid isPermaLink="false">http://localhost/wordpress/2018/11/26/home-2/</guid>
@@ -871,7 +871,7 @@
 	</item>
 	<item>
 		<title></title>
-		<link>http://localhost/wordpress/2018/11/26/53/</link>
+		<link>http://localhost/wordpress/index.php/53/</link>
 		<pubDate>Mon, 26 Nov 2018 11:29:15 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
 		<guid isPermaLink="false">http://localhost/wordpress/2018/11/26/</guid>
@@ -926,7 +926,7 @@
 	</item>
 	<item>
 		<title></title>
-		<link>http://localhost/wordpress/2018/11/26/54/</link>
+		<link>http://localhost/wordpress/index.php/54/</link>
 		<pubDate>Mon, 26 Nov 2018 11:29:16 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
 		<guid isPermaLink="false">http://localhost/wordpress/2018/11/26/</guid>
@@ -981,7 +981,7 @@
 	</item>
 	<item>
 		<title>10</title>
-		<link>http://localhost/wordpress/2018/11/20/project-1/attachment/10/</link>
+		<link>http://localhost/wordpress/index.php/project-1/attachment/10/</link>
 		<pubDate>Sun, 25 Nov 2018 10:57:12 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
 		<guid isPermaLink="false">http://localhost/wordpress/wp-content/uploads/2018/11/10-1.jpg</guid>
@@ -1012,7 +1012,7 @@
 	</item>
 	<item>
 		<title>OPTION02_a</title>
-		<link>http://localhost/wordpress/2018/11/20/project-1/option02_a/</link>
+		<link>http://localhost/wordpress/index.php/project-1/option02_a/</link>
 		<pubDate>Sun, 25 Nov 2018 10:57:16 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
 		<guid isPermaLink="false">http://localhost/wordpress/wp-content/uploads/2018/11/OPTION02_a-1.jpg</guid>
@@ -1043,7 +1043,7 @@
 	</item>
 	<item>
 		<title>Sample Page</title>
-		<link>http://localhost/wordpress/sample-page__trashed/</link>
+		<link>http://localhost/wordpress/index.php/sample-page__trashed/</link>
 		<pubDate>Tue, 20 Nov 2018 19:35:28 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
 		<guid isPermaLink="false">http://localhost/wordpress/?page_id=2</guid>
@@ -1093,7 +1093,7 @@ As a new WordPress user, you should go to <a href="http://localhost/wordpress/wp
 	</item>
 	<item>
 		<title>Privacy Policy</title>
-		<link>http://localhost/wordpress/privacy-policy__trashed/</link>
+		<link>http://localhost/wordpress/index.php/privacy-policy__trashed/</link>
 		<pubDate>Tue, 20 Nov 2018 19:35:28 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
 		<guid isPermaLink="false">http://localhost/wordpress/?page_id=3</guid>
@@ -1181,7 +1181,7 @@ As a new WordPress user, you should go to <a href="http://localhost/wordpress/wp
 	</item>
 	<item>
 		<title>About</title>
-		<link>http://localhost/wordpress/about__trashed/</link>
+		<link>http://localhost/wordpress/index.php/about__trashed/</link>
 		<pubDate>Tue, 20 Nov 2018 19:36:48 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
 		<guid isPermaLink="false">http://localhost/wordpress/?page_id=9</guid>
@@ -1231,7 +1231,7 @@ As a new WordPress user, you should go to <a href="http://localhost/wordpress/wp
 	</item>
 	<item>
 		<title>Contact</title>
-		<link>http://localhost/wordpress/contact__trashed/</link>
+		<link>http://localhost/wordpress/index.php/contact__trashed/</link>
 		<pubDate>Tue, 20 Nov 2018 19:36:48 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
 		<guid isPermaLink="false">http://localhost/wordpress/?page_id=10</guid>
@@ -1281,7 +1281,7 @@ As a new WordPress user, you should go to <a href="http://localhost/wordpress/wp
 	</item>
 	<item>
 		<title>Blog</title>
-		<link>http://localhost/wordpress/blog__trashed/</link>
+		<link>http://localhost/wordpress/index.php/blog__trashed/</link>
 		<pubDate>Tue, 20 Nov 2018 19:36:48 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
 		<guid isPermaLink="false">http://localhost/wordpress/?page_id=11</guid>
@@ -1331,7 +1331,7 @@ As a new WordPress user, you should go to <a href="http://localhost/wordpress/wp
 	</item>
 	<item>
 		<title>A homepage section</title>
-		<link>http://localhost/wordpress/a-homepage-section__trashed/</link>
+		<link>http://localhost/wordpress/index.php/a-homepage-section__trashed/</link>
 		<pubDate>Tue, 20 Nov 2018 19:36:48 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
 		<guid isPermaLink="false">http://localhost/wordpress/?page_id=12</guid>
@@ -1381,7 +1381,7 @@ As a new WordPress user, you should go to <a href="http://localhost/wordpress/wp
 	</item>
 	<item>
 		<title>vc</title>
-		<link>http://localhost/wordpress/vc/</link>
+		<link>http://localhost/wordpress/index.php/vc/</link>
 		<pubDate>Tue, 20 Nov 2018 19:59:29 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
 		<guid isPermaLink="false">http://localhost/wordpress/?page_id=30</guid>
@@ -1419,7 +1419,7 @@ As a new WordPress user, you should go to <a href="http://localhost/wordpress/wp
 	</item>
 	<item>
 		<title>Yelp</title>
-		<link>http://localhost/wordpress/2018/11/26/yelp-2/</link>
+		<link>http://localhost/wordpress/index.php/yelp-2/</link>
 		<pubDate>Mon, 26 Nov 2018 11:29:16 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
 		<guid isPermaLink="false">http://localhost/wordpress/2018/11/26/yelp-2/</guid>
@@ -1474,7 +1474,7 @@ As a new WordPress user, you should go to <a href="http://localhost/wordpress/wp
 	</item>
 	<item>
 		<title>Facebook</title>
-		<link>http://localhost/wordpress/2018/11/26/facebook-2/</link>
+		<link>http://localhost/wordpress/index.php/facebook-2/</link>
 		<pubDate>Mon, 26 Nov 2018 11:29:16 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
 		<guid isPermaLink="false">http://localhost/wordpress/2018/11/26/facebook-2/</guid>
@@ -1529,7 +1529,7 @@ As a new WordPress user, you should go to <a href="http://localhost/wordpress/wp
 	</item>
 	<item>
 		<title>Twitter</title>
-		<link>http://localhost/wordpress/2018/11/26/twitter-2/</link>
+		<link>http://localhost/wordpress/index.php/twitter-2/</link>
 		<pubDate>Mon, 26 Nov 2018 11:29:16 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
 		<guid isPermaLink="false">http://localhost/wordpress/2018/11/26/twitter-2/</guid>
@@ -1584,7 +1584,7 @@ As a new WordPress user, you should go to <a href="http://localhost/wordpress/wp
 	</item>
 	<item>
 		<title>Instagram</title>
-		<link>http://localhost/wordpress/2018/11/26/instagram-2/</link>
+		<link>http://localhost/wordpress/index.php/instagram-2/</link>
 		<pubDate>Mon, 26 Nov 2018 11:29:16 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
 		<guid isPermaLink="false">http://localhost/wordpress/2018/11/26/instagram-2/</guid>
@@ -1639,7 +1639,7 @@ As a new WordPress user, you should go to <a href="http://localhost/wordpress/wp
 	</item>
 	<item>
 		<title>Email</title>
-		<link>http://localhost/wordpress/2018/11/26/email-2/</link>
+		<link>http://localhost/wordpress/index.php/email-2/</link>
 		<pubDate>Mon, 26 Nov 2018 11:29:16 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
 		<guid isPermaLink="false">http://localhost/wordpress/2018/11/26/email-2/</guid>
@@ -1694,7 +1694,7 @@ As a new WordPress user, you should go to <a href="http://localhost/wordpress/wp
 	</item>
 	<item>
 		<title>Project 1</title>
-		<link>http://localhost/wordpress/2018/11/20/project-1/</link>
+		<link>http://localhost/wordpress/index.php/project-1/</link>
 		<pubDate>Tue, 20 Nov 2018 20:02:33 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
 		<guid isPermaLink="false">http://localhost/wordpress/?p=32</guid>
@@ -1734,7 +1734,7 @@ Works includes civil/structural, architectural, sanitary/plumbing systems &amp; 
 	</item>
 	<item>
 		<title>Project 2</title>
-		<link>http://localhost/wordpress/2018/11/22/project-2/</link>
+		<link>http://localhost/wordpress/index.php/project-2/</link>
 		<pubDate>Thu, 22 Nov 2018 21:51:38 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
 		<guid isPermaLink="false">http://localhost/wordpress/?p=36</guid>
@@ -1773,7 +1773,7 @@ Works includes civil/structural, architectural, sanitary/plumbing systems &amp; 
 	</item>
 	<item>
 		<title>Project 3</title>
-		<link>http://localhost/wordpress/2018/11/22/project-3/</link>
+		<link>http://localhost/wordpress/index.php/project-3/</link>
 		<pubDate>Thu, 22 Nov 2018 21:52:01 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
 		<guid isPermaLink="false">http://localhost/wordpress/?p=38</guid>
@@ -1812,7 +1812,7 @@ Works includes civil/structural, architectural, sanitary/plumbing systems &amp; 
 	</item>
 	<item>
 		<title>Project 4</title>
-		<link>http://localhost/wordpress/2018/11/25/project-4/</link>
+		<link>http://localhost/wordpress/index.php/project-4/</link>
 		<pubDate>Sun, 25 Nov 2018 12:59:40 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
 		<guid isPermaLink="false">http://localhost/wordpress/?p=69</guid>
@@ -1839,6 +1839,7 @@ Works includes civil/structural, architectural, sanitary/plumbing systems &amp; 
 		<wp:post_type><![CDATA[post]]></wp:post_type>
 		<wp:post_password><![CDATA[]]></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="category" nicename="completed"><![CDATA[Completed]]></category>
 		<category domain="category" nicename="projects"><![CDATA[Projects]]></category>
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[_edit_last]]></wp:meta_key>
@@ -1847,7 +1848,7 @@ Works includes civil/structural, architectural, sanitary/plumbing systems &amp; 
 	</item>
 	<item>
 		<title>Projects</title>
-		<link>http://localhost/wordpress/vbi/projects/</link>
+		<link>http://localhost/wordpress/index.php/vbi/projects/</link>
 		<pubDate>Sun, 25 Nov 2018 13:05:16 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
 		<guid isPermaLink="false">http://localhost/wordpress/?page_id=71</guid>
@@ -1877,7 +1878,7 @@ Works includes civil/structural, architectural, sanitary/plumbing systems &amp; 
 	</item>
 	<item>
 		<title></title>
-		<link>http://localhost/wordpress/2018/11/26/72/</link>
+		<link>http://localhost/wordpress/index.php/72/</link>
 		<pubDate>Mon, 26 Nov 2018 11:29:21 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
 		<guid isPermaLink="false">http://localhost/wordpress/2018/11/26/72/</guid>
@@ -1932,7 +1933,7 @@ Works includes civil/structural, architectural, sanitary/plumbing systems &amp; 
 	</item>
 	<item>
 		<title>vbi</title>
-		<link>http://localhost/wordpress/vbi/</link>
+		<link>http://localhost/wordpress/index.php/vbi/</link>
 		<pubDate>Sat, 08 Dec 2018 07:28:21 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
 		<guid isPermaLink="false">http://localhost/wordpress/?page_id=76</guid>
@@ -1962,7 +1963,7 @@ Works includes civil/structural, architectural, sanitary/plumbing systems &amp; 
 	</item>
 	<item>
 		<title>Hello world!</title>
-		<link>http://localhost/wordpress/2018/11/20/hello-world__trashed/</link>
+		<link>http://localhost/wordpress/index.php/hello-world__trashed/</link>
 		<pubDate>Tue, 20 Nov 2018 19:35:28 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
 		<guid isPermaLink="false">http://localhost/wordpress/?p=1</guid>
@@ -2021,7 +2022,7 @@ Commenter avatars come from <a href="https://gravatar.com">Gravatar</a>.]]></wp:
 	</item>
 	<item>
 		<title>Project Dummy</title>
-		<link>http://localhost/wordpress/2018/11/20/project-dummy__trashed/</link>
+		<link>http://localhost/wordpress/index.php/project-dummy__trashed/</link>
 		<pubDate>Tue, 20 Nov 2018 20:02:33 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
 		<guid isPermaLink="false">http://localhost/wordpress/?p=32</guid>
@@ -2069,7 +2070,7 @@ Technology Center, Lipa City, Batangas
 	</item>
 	<item>
 		<title>Project Dummy 2</title>
-		<link>http://localhost/wordpress/2018/11/22/project-dummy-2__trashed/</link>
+		<link>http://localhost/wordpress/index.php/project-dummy-2__trashed/</link>
 		<pubDate>Thu, 22 Nov 2018 21:51:38 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
 		<guid isPermaLink="false">http://localhost/wordpress/?p=36</guid>
@@ -2117,7 +2118,7 @@ Technology Center, Lipa City, Batangas
 	</item>
 	<item>
 		<title>Project Dummy 3</title>
-		<link>http://localhost/wordpress/2018/11/22/project-dummy-3__trashed/</link>
+		<link>http://localhost/wordpress/index.php/project-dummy-3__trashed/</link>
 		<pubDate>Thu, 22 Nov 2018 21:52:01 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
 		<guid isPermaLink="false">http://localhost/wordpress/?p=38</guid>
@@ -2165,7 +2166,7 @@ Technology Center, Lipa City, Batangas
 	</item>
 	<item>
 		<title>About Feed</title>
-		<link>http://localhost/wordpress/2018/11/22/about-feed__trashed/</link>
+		<link>http://localhost/wordpress/index.php/about-feed__trashed/</link>
 		<pubDate>Thu, 22 Nov 2018 22:04:23 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
 		<guid isPermaLink="false">http://localhost/wordpress/?p=45</guid>

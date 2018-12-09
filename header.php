@@ -37,11 +37,11 @@
 				</button>
 				<div class="collapse navbar-collapse" id="navBarCollapsibleOptions">
 					<ul class="navbar-nav ml-auto">
-						<li class="nav-item"><a class="nav-link" href="<?php echo(site_url()) ?>/vbi/#aboutSection"><b>ABOUT</b></a></li>
-						<li class="nav-item"><a class="nav-link" href="<?php echo(site_url()) ?>/vbi/#lineOfBusinessSection"><b>LINE OF BUSINESS</b></a></li>
-						<li class="nav-item"><a class="nav-link" href="<?php echo(site_url()) ?>/vbi/#projectsSection"><b>PROJECTS</b></a></li>
-						<li class="nav-item"><a class="nav-link" href="<?php echo(site_url()) ?>/vbi/#contactUsSection"><b>CONTACT US</b></a></li>
-						<li class="nav-item"><a class="nav-link" href="<?php echo(site_url()) ?>/vc/"><b>VISTA CORP.</b></a></li>
+						<li class="nav-item"><a class="nav-link" href="<?php echo(site_url()) ?>/index.php/vbi/#aboutSection"><b>ABOUT</b></a></li>
+						<li class="nav-item"><a class="nav-link" href="<?php echo(site_url()) ?>/index.php/vbi/#lineOfBusinessSection"><b>LINE OF BUSINESS</b></a></li>
+						<li class="nav-item"><a class="nav-link" href="<?php echo(site_url()) ?>/index.php/vbi/#projectsSection"><b>PROJECTS</b></a></li>
+						<li class="nav-item"><a class="nav-link" href="<?php echo(site_url()) ?>/index.php/vbi/#contactUsSection"><b>CONTACT US</b></a></li>
+						<li class="nav-item"><a class="nav-link" href="<?php echo(site_url()) ?>/index.php/vc/"><b>VISTA CORP.</b></a></li>
 						<!--<li class="nav-item"><a class="nav-link" href="./vc/"><b>VISTA CORP.</b></a></li>-->
 					</ul>
 					

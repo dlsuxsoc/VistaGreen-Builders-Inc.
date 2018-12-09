@@ -22,7 +22,7 @@
 				</div>
 				
 				<div class="col-lg-6">
-					<a href="<?php echo(site_url()) ?>/vbi/">
+					<a href="<?php echo(site_url()) ?>/index.php/vbi/">
 						<div class = "bannerCells" id = "vbi">
 							<img src="<?php echo ASSETS_PATH; ?>/images/new-logos/vistagreen-logo.png" 
 							     alt="VistaGreen CORPORATION" width = "500px"/>
@@ -41,7 +41,7 @@
 				</div>
 				
 				<div class="col-lg-6">
-					<a href="<?php echo(site_url()) ?>/vc/">
+					<a href="<?php echo(site_url()) ?>/index.php/vc/">
 						<div class = "bannerCells" id = "vc">
 							<img src="<?php echo ASSETS_PATH; ?>/images/new-logos/vistacorp-logo-2.png" 
 							     alt="VistaGreen CORPORATION" width = "500px"/>

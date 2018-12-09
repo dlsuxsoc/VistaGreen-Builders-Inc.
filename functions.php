@@ -18,6 +18,9 @@
 				case 'vc':
 					wp_enqueue_style( 'vc.css', get_template_directory_uri() . '/css/vc.css' );
                     break;
+				case 'projects':
+					wp_enqueue_style( 'projects.css', get_template_directory_uri() . '/css/projects.css' );
+                    break;
 				
 			}
 		} 
