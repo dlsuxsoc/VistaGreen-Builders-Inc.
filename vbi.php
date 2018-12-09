@@ -177,7 +177,7 @@
 			</div>
 			
 			<br><br><br>
-			<a href = "http://wordpress.local/wordpress/vbi/projects/"><button type="button" class="btn btn-success" 
+			<a href = "http://wordpress.local/wordpress/index.php/vbi/projects/"><button type="button" class="btn btn-success" 
 					id = "viewProjectsButton">VIEW MORE</button></a>
 		</div>
 	</div>	
