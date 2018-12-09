@@ -1,5 +1,4 @@
 		
-<!-- TODO: Add map -->
 		
 	<div class = "navOptionsSection" id = "contactUsSection"></div>
 	<div id="map"></div>

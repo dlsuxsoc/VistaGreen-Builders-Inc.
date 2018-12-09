@@ -1,0 +1,101 @@
+
+p, h1, h2, h3, h4, h5, h6, button{
+	font-family: 'Assistant', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6{
+	font-weight: bold;
+}
+
+
+.carousel-item:nth-child(1) {
+    background: linear-gradient( rgba(0,0,0,0.4), rgba(0, 0, 0, .5) ), 
+				url(../assets/images/LIMA1-49.jpg);
+				
+    /* Set a specific height */
+    height: -webkit-fill-available; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.carousel-item:nth-child(2) {
+    background: linear-gradient( rgba(0,0,0,0.4), rgba(0, 0, 0, .5) ), 
+				url(../assets/images/ACBEL1.jpg);
+				
+    /* Set a specific height */
+    height: -webkit-fill-available; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.carousel-item:nth-child(3) {
+    background: linear-gradient( rgba(0,0,0,0.4), rgba(0, 0, 0, .5) ), 
+				url(../assets/images/FPIPKinpo1.jpg);
+				
+    /* Set a specific height */
+    height: -webkit-fill-available; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.cta{
+	padding: 3em 0;
+}
+
+#cta-title{
+	color: #35EC09;
+}
+
+#contentCarousel{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+#buildWithUsBtn{
+	background-color: rgba(0,0,0,.25);
+	border-color: white;
+	color: white;
+}
+
+
+#aboutSection{
+	padding-top: 100px;
+}
+
+.block > .container{
+	padding-bottom: 100px;
+	border-bottom: 1px solid #bfbfbf;
+}
+
+/*.block:last-child > .container{ 		Not working */
+div.lastBlock > .container{
+	border-bottom: 0px;
+	padding-bottom: inherit;
+}
+
+
+#projectsSection img{
+	border-radius: 10px;
+}
+
+.action-paragraph{
+	width: 20em;
+	font-size: 1.1em;
+}
+
+.details{
+	line-height: 2em;
+}
