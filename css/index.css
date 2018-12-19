@@ -24,6 +24,7 @@ body{
 	border-bottom: white solid;
 	margin-top: 50px;
 	margin-bottom: 50px;
+	font-family: nevis;
 }
 
 #mainLogo *{
@@ -47,9 +48,11 @@ body{
 }
 
 #vqo{
-    background-image: linear-gradient( rgba(0,0,0,0.3), rgba(0, 0, 0, .5) ), url(../assets/images/ACBEL1.jpg);
-    background-size: 170%;
-    background-position: inherit;
+    background-image: linear-gradient( rgba(0,0,0,0.3), rgba(0, 0, 0, .5) ), url(../assets/images/R23R23T3.jpg);
+	background-position: inherit;
+    background-position-x: 60%;
+    background-position-y: 30%;
+	background-size: 195%;
 }
 
 a:hover{

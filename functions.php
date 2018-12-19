@@ -5,11 +5,11 @@
 		if( is_page() || is_single() )
 		{	
 			wp_enqueue_style( 'general.css', get_template_directory_uri() . '/css/general.css' );
+			wp_enqueue_script('general.js', get_template_directory_uri() . '/js/general.js', array('jquery'), '', false);
 			switch($post->post_name) // Post/Page slug used, not the Title
 			{
 				case 'index':
-					wp_enqueue_script('index.js', get_template_directory_uri() . '/js/index.js', array('jquery'), '', false);
-                    wp_enqueue_style( 'index.css', get_template_directory_uri() . '/css/index.css' );
+					wp_enqueue_style( 'index.css', get_template_directory_uri() . '/css/index.css' );
                     break;
 				case 'vbi':
 					wp_enqueue_script('vbi.js', get_template_directory_uri() . '/js/vbi.js', array('jquery'), '', false);
@@ -23,6 +23,8 @@
                     break;
 				
 			}
+			
+		wp_localize_script( 'general.js', 'assetsPath', ASSETS_PATH);
 		} 
 	}
 
@@ -39,5 +41,5 @@
 		define( 'JS_PATH', get_stylesheet_directory_uri() . '/js/' );
 	}
 	/*  <img src="<?php echo ASSETS_PATH; ?>/images/FileName.png" alt=""/>	*/
-
+	$assets_array = array( 'path' => ASSETS_PATH );
 ?>

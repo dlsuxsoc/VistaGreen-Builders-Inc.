@@ -13,9 +13,10 @@
 					<span style = "display: inline-block" class = "text-left">
 						<h3 class = "text-success"><strong>Mission</strong></h3>
 					
-						Committed to draw on senior <br>
-						expertise in environmentally <br>
-						conscious engineering.
+						By promoting sustainable products and<br>
+						services, VistaGreen Builders Inc. will<br>
+						continue to the improvement of efficient<br>
+						and effective construction practices.
 					</span>
 				</div>
 								
@@ -25,9 +26,9 @@
 					<span style = "display: inline-block" class = "text-left">
 					<h3 class = "text-success"><strong>Vision</strong></h3>
 					
-						To be the leading provider of <br>
-						innovative and sustainable <br>
-						technologies in the Philippines.
+						To be the construction<br> 
+						firm of choice in providing<br>
+						excellent quality services
 					</span>
 				</div>
 			</div>	

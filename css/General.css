@@ -46,30 +46,12 @@ h1, h2, h3, h4, h5, h6{
     transition: all .5s;
 }
 
-.whiteNavBar *{
-	color: white!important;
-}
-
-.whiteNavBar{
-	background: rgba(0, 0, 0, .9)!important;
-}
-
 .greenNavBar{
 	background: rgba(255, 255, 255, 1)!important;
 }
 
 .greenNavBar *{
 	color: #28a745!important;
-}
-
-.greenNavBar #navBarImg{
-	content: url("../assets/images/vg-logo.png");
-	width: 250px;
-}
-
-.whiteNavBar #navBarImg{
-	content: url("../assets/images/vg-logo-white.png");
-	width: 250px;
 }
 
 .navbar-nav li{

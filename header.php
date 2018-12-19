@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html 
 	<head lang ="en">
-		<title>VistaGreen Builders Inc.</title>
+		<title>Vistagreen Builders Inc.</title>
 		
 		
 		<!-- Required meta tags -->
@@ -26,23 +26,15 @@
 	<body>		
 		<nav class="navbar navbar-expand-lg navbar-light fixed-top greenNavBar" id = "navBar">
 			<div class="container">
-				<a class="navbar-brand" href="<?php echo(site_url()) ?>">
-				<img alt = "" id = "navBarImg"/> 
-				</a>
 				<!-- Responsive navBar (collapsible menu) -->
 				<button class="navbar-toggler" type="button" data-toggle="collapse"
 						data-target="#navBarCollapsibleOptions" aria-controls="navBarCollapsibleOptions" 
 						aria-expanded="false" aria-label="Toggle navigation">
 					<span class="navbar-toggler-icon"></span>
 				</button>
-				<div class="collapse navbar-collapse" id="navBarCollapsibleOptions">
-					<ul class="navbar-nav ml-auto">
-						<li class="nav-item"><a class="nav-link" href="<?php echo(site_url()) ?>/index.php/vbi/#aboutSection"><b>ABOUT</b></a></li>
-						<li class="nav-item"><a class="nav-link" href="<?php echo(site_url()) ?>/index.php/vbi/#lineOfBusinessSection"><b>LINE OF BUSINESS</b></a></li>
-						<li class="nav-item"><a class="nav-link" href="<?php echo(site_url()) ?>/index.php/vbi/#projectsSection"><b>PROJECTS</b></a></li>
-						<li class="nav-item"><a class="nav-link" href="<?php echo(site_url()) ?>/index.php/vbi/#contactUsSection"><b>CONTACT US</b></a></li>
-						<li class="nav-item"><a class="nav-link" href="<?php echo(site_url()) ?>/index.php/vc/"><b>VISTA CORP.</b></a></li>
-						<!--<li class="nav-item"><a class="nav-link" href="./vc/"><b>VISTA CORP.</b></a></li>-->
+				<div class="collapse navbar-collapse ml-5" id="navBarCollapsibleOptions">
+					<ul class="navbar-nav mr-auto">
+						<li class="nav-item"><a class="nav-link" href="<?php echo(site_url()) ?>"><b>HOME</b></a></li>
 					</ul>
 					
 				</div>
