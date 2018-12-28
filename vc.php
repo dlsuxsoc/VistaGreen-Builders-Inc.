@@ -6,21 +6,21 @@
 ?>
 
 	
-	<div class="block jumbotron text-center container-fluid" id = "vcBody">
-		<br/>
-		<br/>
-		<img src="<?php echo ASSETS_PATH; ?>/images/new-logos/vistacorp-logo-2.png" alt="VistaGreen CORPORATION" width = "500px"/>
+	<div class="text-center container-fluid" id = "vcBody">
+		<div class = 'block navOptionsSection' id = "aboutSection">
+			<img src="<?php echo ASSETS_PATH; ?>/images/new-logos/vistacorp-logo-2.png" alt="VistaGreen CORPORATION" width = "500px"/>
+			
+			<p>introduces in the Philippines a</p> <br>
+			<h2 class = "text-success"><strong>Waste-To-Energy (WTE) <br> Pyrolysis / Gasification <br>
+				Technology</strong></h2> <br>
+			<h3><strong>Modular Catalytic gasification waste parocessing plants, <br>
+				from 50 tons to 500 tons per day capacity, Clean-tech, <br>
+				water-free processing system</strong></h3>
+			
+			<p>that eliminates the need for additional dumpsites/landfills</p>
+		</div>
 		
-		<p>introduces in the Philippines a</p> <br>
-		<h2 class = "text-success"><strong>Waste-To-Energy (WTE) <br> Pyrolysis / Gasification <br>
-			Technology</strong></h2> <br>
-		<h3><strong>Modular Catalytic gasification waste parocessing plants, <br>
-			from 50 tons to 500 tons per day capacity, Clean-tech, <br>
-			water-free processing system</strong></h3>
-		
-		<p>that eliminates the need for additional dumpsites/landfills</p>
-		
-		<div class ='block container'>
+		<div class ='block container navOptionsSection' id = 'projectSection'>
 
 			<div class = 'row'>				
 				<div class="col-lg-6">

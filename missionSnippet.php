@@ -1,7 +1,3 @@
-
-<!-- I'm not sure if whether I should create a new 
-	 css file for this html snippet so I placed 
-	 all of the styles here -->
 	 
 	<div class="jumbotron text-center container-fluid" style="margin-bottom:0px">
 
@@ -12,11 +8,7 @@
 						 style = "width: 150px; margin-right:20px;vertical-align:top"/>						
 					<span style = "display: inline-block" class = "text-left">
 						<h3 class = "text-success"><strong>Mission</strong></h3>
-					
-						By promoting sustainable products and<br>
-						services, VistaGreen Builders Inc. will<br>
-						continue to the improvement of efficient<br>
-						and effective construction practices.
+						<p id = 'missionContent'></p>
 					</span>
 				</div>
 								
@@ -25,10 +17,8 @@
 						 style = "width: 150px; margin-right:20px;vertical-align:top"/>						
 					<span style = "display: inline-block" class = "text-left">
 					<h3 class = "text-success"><strong>Vision</strong></h3>
-					
-						To be the construction<br> 
-						firm of choice in providing<br>
-						excellent quality services
+						<p id = 'visionContent'>
+						</p>
 					</span>
 				</div>
 			</div>	

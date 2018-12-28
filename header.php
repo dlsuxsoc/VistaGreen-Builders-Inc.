@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html 
 	<head lang ="en">
-		<title>Vistagreen Builders Inc.</title>
+		<title>Vistagreen Group</title>
 		
 		
 		<!-- Required meta tags -->

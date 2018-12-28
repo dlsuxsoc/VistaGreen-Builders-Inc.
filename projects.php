@@ -35,6 +35,7 @@
 								'post_type' => 'post',
 								'category__not_in'=> 5,		// Category id
 								'category__in'=> 4,
+							    'posts_per_page' => -1, // query ALL posts
 								'order' => 'post_date'
 							);
 							$query = new WP_Query( $args );
@@ -56,7 +57,7 @@
 						<?php
 								$myposts = get_posts( 
 									array( 'category_name' => 'completed', 
-										   // 'posts_per_page' => 9
+										   'posts_per_page' => -1, // query ALL posts
 										   'order' => 'post_date')  );
 								if ( $myposts ) : 
 									foreach ( $myposts as $post ) : 

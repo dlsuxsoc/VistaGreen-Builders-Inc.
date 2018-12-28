@@ -29,17 +29,18 @@
 		<!-- Content of the carousel -->
 		<div class = "container" id = "contentCarousel">
 			<div class="cta">
-				<h2 id="cta-title">VISTAGREEN BUILDERS INC.</h2>
+				<h2 id="cta-title">VISTAGREEN BUILDERS, INC.</h2>
 				<br>
 				<p class="action-paragraph">
 					(formerly ATO Builders Inc.), is a duly registered
 					company with the Securities and Exchange
 					Commision (SEC) and under the laws of
-					the Republic of the Philippines.
+					the Republic of the Philippines. a AAA Contractor
+					in General Building and General Engineering.
 				</p>
 			</div>
-			<button type="button" class="btn btn-light text-light" 
-					id = "buildWithUsBtn">BUILD WITH US!</button>
+			<!--<button type="button" class="btn btn-light text-light" 
+					id = "buildWithUsBtn">BUILD WITH US!</button>-->
 		</div>
 		
 	</div>
@@ -75,7 +76,7 @@
 					of professional service and result on all projects
 					undertaken.
 					<br><br><br><br>
-					<button id="viewMembersBtn" class="btn btn-success" type="button">VIEW MEMBERS</button>
+					<button id="viewMembersBtn" class="btn btn-success" type="button">VIEW ACCREDITATIONS</button>
 				</div>
 				<div class="col-lg-6 text-center">
 					<img style="width: 350px;" src="<?php echo ASSETS_PATH; ?>/images/c-NKG1.png" alt="" />

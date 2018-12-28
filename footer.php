@@ -38,12 +38,7 @@
 						<span style = "display: inline-block" class = "text-left">
 							<strong>Metro Manila Address:</strong>
 							
-							<p><br>
-								Unit B2 Guevent Building, <br>
-								90 DM Guevara St.<br>
-								Mandaluyong City,<br>
-								Philippines
-							</p>
+							<p id = "mainAddressContent"></p>
 						</span>
 					</div>
 									
@@ -61,11 +56,7 @@
 						<img src="<?php echo ASSETS_PATH; ?>/icons/envelope.png" alt="" 
 							 style = "width: 25px; margin-right:10px;vertical-align:top"/>						
 						<span style = "display: inline-block" class = "text-left">
-							<p>
-								projects@vistagreen.net <br>
-								vistagreenbuildersinc@yahoo.com <br>
-								vbi.engineering@yahoo.com <br>
-							</p>
+							<p id = "emailContent"></p>
 						</span>
 					</div>
 					
@@ -76,6 +67,12 @@
 								Rizal St. Brgy. Candao,<br>
 								Dulag, Leyte, Philippines<br>
 							</p>
+						</span>
+						
+						<p><br></p>
+						<strong>Find us on Facebook:</strong>
+						<a style = "text-decoration: none"
+						   id = "fbLinkContent"></a>
 						</span>
 					</div>
 				</div>	
