@@ -4,17 +4,20 @@ $(document).ready(function(){
 	var origin = window.location.origin;
 	// var assetsUrl = assetsPath.path;
 	
+	if(origin.includes("localhost"))
+		origin += "/wordpress";
+	
 	// VBI PAGE
 	if(pathName.includes("index.php/vbi")) { 
 		$("#navBarCollapsibleOptions ul").append(
 			'<li class="nav-item"><a class="nav-link"' + 
-			'	href="<?php echo(site_url()) ?>/index.php/vbi/#aboutSection"><b>ABOUT</b></a></li>' +
+			'	href="' + origin + '/index.php/vbi/#aboutSection"><b>ABOUT</b></a></li>' +
 			'<li class="nav-item"><a class="nav-link"' +
-			'	href="<?php echo(site_url()) ?>/index.php/vbi/#lineOfBusinessSection"><b>LINE OF BUSINESS</b></a></li>' +
+			'	href="' + origin + '/index.php/vbi/#lineOfBusinessSection"><b>LINE OF BUSINESS</b></a></li>' +
 			'<li class="nav-item"><a class="nav-link"' +
-			'	href="<?php echo(site_url()) ?>/index.php/vbi/#projectsSection"><b>PROJECTS</b></a></li>' +
+			'	href="' + origin + '/index.php/vbi/#projectsSection"><b>PROJECTS</b></a></li>' +
 			'<li class="nav-item"><a class="nav-link"' +
-			'	href="<?php echo(site_url()) ?>/index.php/vbi/#contactUsSection"><b>CONTACT US</b></a></li>' + 
+			'	href="' + origin + '/index.php/vbi/#contactUsSection"><b>CONTACT US</b></a></li>' + 
 			'<li class="nav-item"><a class="nav-link"' +
 			'	href="#"><b>CAREERS</b></a></li>')
 		$("#navBar > .container").prepend('<a class="navbar-brand" href="' + origin + 
@@ -49,11 +52,11 @@ $(document).ready(function(){
 	} else if(pathName.includes("index.php/vc/")) {	
 		$("#navBarCollapsibleOptions ul").append(
 			'<li class="nav-item"><a class="nav-link"' + 
-			'	href="<?php echo(site_url()) ?>/index.php/vbi/#aboutSection"><b>ABOUT</b></a></li>' +
+			'	href="' + origin + '/index.php/vbi/#aboutSection"><b>ABOUT</b></a></li>' +
 			'<li class="nav-item"><a class="nav-link"' +
-			'	href="<?php echo(site_url()) ?>/index.php/vbi/#projectsSection"><b>PROJECTS</b></a></li>' +
+			'	href="' + origin + '/index.php/vbi/#projectsSection"><b>PROJECTS</b></a></li>' +
 			'<li class="nav-item"><a class="nav-link"' +
-			'	href="<?php echo(site_url()) ?>/index.php/vbi/#contactUsSection"><b>CONTACT US</b></a></li>' + 
+			'	href="' + origin + '/index.php/vbi/#contactUsSection"><b>CONTACT US</b></a></li>' + 
 			'<li class="nav-item"><a class="nav-link"' +
 			'	href="#"><b>CAREERS</b></a></li>')
 			
@@ -89,7 +92,9 @@ $(document).ready(function(){
 	} 
 	
 	// VBI & VC PAGE
-	if(pathName.includes("index.php/vbi") || pathName.includes("index.php/vc/")) {		
+	if((pathName.includes("index.php/vbi") || pathName.includes("index.php/vc/")) &&
+		// Add the internal pages here (e.g. vbi/projects)
+		!pathName.includes("/projects")) {		
 		var items = document.getElementsByClassName("navOptionsSection");
 		var i, idSection;
 		for (i = 0; i < items.length; i++) {	
