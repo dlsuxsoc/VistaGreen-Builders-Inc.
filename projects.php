@@ -28,16 +28,28 @@
 				<div class="tab-pane fade active show" 
 					 id="current" role="tabpanel" 
 					 aria-labelledby="current-tab">
-					 <div class = "row">
+					 <div class = "row threePanelItems">
 						<?php
-						
-							$args = array(
-								'post_type' => 'post',
-								'category__not_in'=> 5,		// Category id
-								'category__in'=> 4,
-							    'posts_per_page' => -1, // query ALL posts
-								'order' => 'post_date'
-							);
+							if (strpos($_SERVER['REQUEST_URI'], 'vbi') !== false): 
+								$args = array(
+									'post_type' => 'post',
+									'category__not_in'=> 5,		// Category id
+									'category__in'=> 4,
+									'tag' => 'vbi',
+									'posts_per_page' => -1, // query ALL posts
+									'order' => 'post_date'
+								);		   
+							elseif (strpos($_SERVER['REQUEST_URI'], 'vc') !== false): 
+								$args = array(
+									'post_type' => 'post',
+									'category__not_in'=> 5,		// Category id
+									'category__in'=> 4,
+									'tag' => 'vc',
+									'posts_per_page' => -1, // query ALL posts
+									'order' => 'post_date'
+								);
+							endif;
+							
 							$query = new WP_Query( $args );
 							if ( $query->have_posts() ) {
 								while ( $query->have_posts() ) {
@@ -53,12 +65,23 @@
 				<div class="tab-pane fade" 
 					 id="completed" role="tabpanel" 
 					 aria-labelledby="completed-tab">
-					 <div class = "row">
+					 <div class = "row threePanelItems">
 						<?php
-								$myposts = get_posts( 
-									array( 'category_name' => 'completed', 
-										   'posts_per_page' => -1, // query ALL posts
-										   'order' => 'post_date')  );
+								if (strpos($_SERVER['REQUEST_URI'], 'vbi') !== false): 
+									$myposts = get_posts( 
+										array( 'category_name' => 'completed', 
+											   'posts_per_page' => -1, // query ALL posts
+											   'tag' => 'vbi',
+											   'order' => 'post_date')  );	   
+								
+								elseif (strpos($_SERVER['REQUEST_URI'], 'vc') !== false): 
+									$myposts = get_posts( 
+										array( 'category_name' => 'completed', 
+											   'posts_per_page' => -1, // query ALL posts
+											   'tag' => 'vc',
+											   'order' => 'post_date')  );
+								endif;
+								
 								if ( $myposts ) : 
 									foreach ( $myposts as $post ) : 
 										setup_postdata( $post );

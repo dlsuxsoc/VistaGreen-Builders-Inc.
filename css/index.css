@@ -1,8 +1,7 @@
 
 body{
 	 /* The image used */
-    background: linear-gradient( rgba(0,0,0,0.6), rgba(0, 0, 0, 0.65) ),
-				url("../assets/images/temp/buildings.jpg");
+    background-image: url("../assets/images/IMG_4073-31.jpg");
 
 
     /* Set a specific height */

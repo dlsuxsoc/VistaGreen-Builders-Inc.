@@ -72,7 +72,7 @@ h1, h2, h3, h4, h5, h6{
 
 .block{
 	/*padding		 : 150px;*/
-	padding-top: 100px;
+	padding-top: 110px;
 	padding-bottom: 50px;
 	background-color: white;
 }
@@ -91,4 +91,9 @@ footer p{
 
 #map{
 	height: 500px;
+}
+
+.row.threePanelItems > div{
+	min-height: 240px;
+    padding-top: 5%;
 }

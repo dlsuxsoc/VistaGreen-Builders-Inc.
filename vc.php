@@ -20,7 +20,7 @@
 			<p>that eliminates the need for additional dumpsites/landfills</p>
 		</div>
 		
-		<div class ='block container navOptionsSection' id = 'projectSection'>
+		<div class ='block container navOptionsSection' id = 'projectsSection'>
 
 			<div class = 'row'>				
 				<div class="col-lg-6">
@@ -30,11 +30,11 @@
 					
 					12 to 18 months in initial operational phase <br><br>
 					Initial installation of 50 T/day, completion to <br>
-					be sceduled <br><br>
+					be scheduled <br><br>
 					Chemical and Laboratory on-site <br><br>
 					Emission-free <br><br>
 					Fully compliant with EU Standards on <br>
-					Emision limits for 2030
+					Emission limits for 2030
 				</div>
 								
 				<div class="col-lg-6">
@@ -51,6 +51,10 @@
 					Cooling gas into petroleum products
 				</div>
 			</div>	
+			
+			<br><br>
+			<a href = "<?php echo(site_url()) ?>/index.php/vc/projects/"><button type="button" class="btn btn-success" 
+					id = "viewProjectsButton">VIEW MORE</button></a>
 		</div>
 
 	</div>

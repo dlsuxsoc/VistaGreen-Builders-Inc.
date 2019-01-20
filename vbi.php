@@ -76,7 +76,10 @@
 					of professional service and result on all projects
 					undertaken.
 					<br><br><br><br>
-					<button id="viewMembersBtn" class="btn btn-success" type="button">VIEW ACCREDITATIONS</button>
+					<a href = "<?php echo(site_url()) ?>/index.php/vbi/accreditations/" >
+						<button id="viewAccreditationsBtn" 
+								class="btn btn-success" 
+								type="button">VIEW ACCREDITATIONS</button></a>
 				</div>
 				<div class="col-lg-6 text-center">
 					<img style="width: 350px;" src="<?php echo ASSETS_PATH; ?>/images/c-NKG1.png" alt="" />

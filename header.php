@@ -33,7 +33,7 @@
 					<span class="navbar-toggler-icon"></span>
 				</button>
 				<div class="collapse navbar-collapse ml-5" id="navBarCollapsibleOptions">
-					<ul class="navbar-nav mr-auto">
+					<ul class="navbar-nav ml-auto">
 						<li class="nav-item"><a class="nav-link" href="<?php echo(site_url()) ?>"><b>HOME</b></a></li>
 					</ul>
 					
