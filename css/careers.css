@@ -1,0 +1,7 @@
+.jobOffering{
+    padding-bottom: 100px;
+}
+
+.jobOffering > strong{
+    font-size: x-large;
+}

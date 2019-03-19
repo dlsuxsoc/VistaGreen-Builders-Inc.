@@ -35,6 +35,26 @@
 					endif; 
 					wp_reset_query();
 			?>	
+							
+				<div class="jobOffering col-lg-6">
+					<h3 class = "text-success">PORAC, PAMPANGA<br></h3>
+					<strong>[POSITIONS]</strong>
+				</div>
+
+				<div class="jobOffering col-lg-6">
+					<h3 class = "text-success">TUGUEGARAO<br></h3>
+					<strong>[POSITIONS]</strong>
+				</div>
+						
+				<div class="jobOffering col-lg-6">
+					<h3 class = "text-success">BATANGAS</h3>
+					<strong>[POSITIONS]</strong>
+				</div>
+				
+				<div class="jobOffering col-lg-6">
+					<h3 class = "text-success">LEYTE<br></h3>
+					<strong>[POSITIONS]</strong>
+				</div>
 			</div>
 				
 			
